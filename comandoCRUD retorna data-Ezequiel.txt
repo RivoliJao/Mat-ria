@@ -1,0 +1,7 @@
+duplo clique no datetimepicker
+
+dtpData.Format = DateTimePickerFormat.Custom;
+dtpData.CustomFormat = "ddddddd, dd MMM yyyy";
+
+//Cria um formato customizado para o dtpData para permitir que ele aceite os dados a partir do duplo clique na tabela
+//primeiro grupo de 'd' mostra o dia da semana. Segundo 'd' representa o dia. MMM representa o mês. yyyy representa o ano
